@@ -12,3 +12,6 @@
 # Denote all files that are truly binary and should not be modified.
 *.png binary
 *.jpg binary
+
+# Mark all .txt files as Adblock Filter Lists and include in Languages list.
+*.txt linguist-language=AdBlock linguist-detectable
